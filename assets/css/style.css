@@ -1,0 +1,18 @@
+/* Variables */
+:root {
+    /* midnightblue */
+    --color-1: hsl(215, 81%, 15%);
+    --color-1h: hsl(215, 81%, 25%);
+    /* steelblue */
+    --color-2: hsl(205, 71%, 40%);
+    --color-2h: hsl(205, 71%, 50%);
+    /* midnightblue */
+    --color-3: hsl(215, 81%, 15%);
+    --color-3h: hsl(215, 81%, 25%);
+    /* midnightblue */
+    --color-4: hsl(215, 81%, 15%);
+    --color-4h: hsl(215, 81%, 25%);
+    /* midnightblue */
+    --color-5: hsl(215, 81%, 15%);
+    --color-5h: hsl(215, 81%, 25%);
+}
