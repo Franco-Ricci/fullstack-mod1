@@ -21,8 +21,8 @@
     --color-5: hsl(0,0%,39%);
     --color-5h: hsl(0,0%,29%);
 
-    --box-shadow: 0px 3px 5px 0px var(--color-5);
-    --text-shadow: 0px 2px 5px #000;
+    --box-shadow: 0px 3px 5px 0px rgba(0,0,0,.4);
+    --text-shadow: 0px 2px 5px black;
 }
 
 /***************************************************************************************************/
@@ -105,5 +105,31 @@
 @media (min-width: 992px) {
     #carousel .carousel-item {
         height: 550px;
+    }
+}
+
+/***************************************************************************************************/
+/* -HEADER- */
+/***************************************************************************************************/
+header .navbar-brand img {
+    width: 40px;
+    height: auto;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    header .navbar-brand img {
+        width: 50px;
+    }
+}
+@media (min-width: 992px) {
+    header .navbar-brand img {
+        width: 60px;
+    }
+    header .dropdown .dropdown-menu{
+        min-width: 300px;
     }
 }
