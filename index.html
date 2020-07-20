@@ -165,42 +165,58 @@
 
     <!--//////////////////////////////////////////////////////////////////////////////////////-->
 
-    <footer>
-        <section id="contacto" class="container">
-            <h3 class="text-center">Contáctanos</h3>
-            <form>
+    <footer class="mt-5">
+        <section id="contacto" class="py-4">
+            <div class="container">
+              <h3 class="text-center">Contáctanos</h3>
+              <form>
                 <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
+                  <div class="form-group col-md-4">
+                    <label for="inputEmail4">E-mail</label>
                     <input type="email" class="form-control" id="inputEmail4">
                   </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
+                  <div class="form-group col-md-4">
+                    <label for="inputPassword4">Nombre</label>
+                    <input type="text" class="form-control" id="inputPassword4">
                   </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                  <div class="form-group col-md-4">
+                    <label for="inputPassword4">Apellido</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                  </div>
                 </div>
                 <div class="form-row">
                   <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
+                    <label for="inputAddress">Teléfono</label>
+                    <input type="number" class="form-control" id="inputAddress">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputAddress2">Asunto</label>
+                    <input type="text" class="form-control" id="inputAddress2">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Ciudad</label>
                     <input type="text" class="form-control" id="inputCity">
                   </div>
                   <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
+                    <label for="inputState">Provincia</label>
                     <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
+                      <option selected>Seleccionar...</option>
+                      <option>Buenos Aires</option>
+                      <option>Catamarca</option>
+                      <option>Chubut</option>
+                      <option>Córdoba</option>
+                      <option>Jujuy</option>
+                      <option>Neuquén</option>
+                      <option>Salta</option>
+                      <option>Santa Cruz</option>
+                      <option>Tucumán</option>
+                      <option>Tierra del Fuego</option>
                     </select>
                   </div>
                   <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
+                    <label for="inputZip">Código Postal</label>
                     <input type="text" class="form-control" id="inputZip">
                   </div>
                 </div>
@@ -208,24 +224,27 @@
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="gridCheck">
                     <label class="form-check-label" for="gridCheck">
-                      Check me out
+                      Deseo suscribirme a las novedades por correo.
                     </label>
                   </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <div class="row m-0 justify-content-center">
+                  <button type="submit" class="btn btn-primary bg-1">Enviar</button>
+                </div>
               </form>
+            </div>
         </section>
 
-        <section id="nav" class="color-1 p-2 mt-5">
-            <nav class="nav flex-column container align-items-center">
-                <a class="nav-link active" href="#">Active</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <section id="nav" class="bg-1 p-2">
+            <nav class="nav d-flex container align-items-center justify-content-center">
+                <a class="nav-link active" href="#">Inicio</a>
+                <a class="nav-link" href="#">Modelos</a>
+                <a class="nav-link" href="#">Ingresar</a>
+                <a class="nav-link" href="#">¿Quiénes sómos?</a>
               </nav>
         </section>
 
-        <section id="firma" class="bg-dark p-2">
+        <section id="firma" class="p-2">
             <h6 class="text-center m-0 text-light">Desarrollado por GeekSteam</h6>
         </section>
     </footer>

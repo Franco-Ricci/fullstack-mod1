@@ -155,3 +155,41 @@ header .navbar-dark .navbar-nav .nav-link {
     overflow: hidden;
     object-fit: cover;
 }
+
+/***************************************************************************************************/
+/* -FOOTER- */
+/***************************************************************************************************/
+footer #firma {
+    background: black;
+}
+
+footer #firma h6::before, #firma h6::after{
+    content: ' - '
+}
+
+footer #nav a.nav-link {
+    color: white;
+    transition: .2s;
+}
+footer #nav a.nav-link:hover {
+    color: var(--color-4);
+    transform: translateY(-5px);
+}
+
+footer #contacto {
+  background-image: url("../img/parallax.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer #contacto .container {
+    font-weight: bold;
+    color: white!important;
+    text-shadow: var(--text-shadow)
+}
+footer #contacto .container .form-control {
+    box-shadow: var(--box-shadow)
+}
