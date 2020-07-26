@@ -1,4 +1,4 @@
-# Consecionario BMW
+# Concesionario BMW
 **Proyecto Integrador Nº1 - Grupo 1 - Rolling Code School - FullStack**
 
 **Integrantes:**
