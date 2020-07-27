@@ -8,47 +8,51 @@
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.css">
 </head>
 <body>
     <header class="sticky-top shadow">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-1">
-            <a class="navbar-brand" href="">
-              <div class="row m-0 align-items-center">
-                <img src="assets/img/logo.png" alt="">
-                <h2 class="m-0 ml-2">BMW</h2>
-              </div>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Modelos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Ingresar</a>
-                </li>
-                <li class="nav-item dropdown dropleft">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Buscar Modelo
-                  </a>
-                  <div class="dropdown-menu bg-2 p-4 text-white" aria-labelledby="navbarDropdownMenuLink">
-                    <form action="" class="text-lg-center">
-                      <div class="form-group">
-                        <label for="search">¿Qué estás buscando?</label>
-                        <input type="text" class="form-control">
-                      </div>
-                      <button type="submit" class="btn btn-light">Buscar</button>
-                    </form>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-1">
+        <a class="navbar-brand" href="index.html">
+          <div class="row m-0 align-items-center">
+            <img src="assets/img/logo.png" alt="">
+            <h2 class="m-0 ml-2">BMW</h2>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalogo.html">Modelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ingresar.html">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#info">¿Quiénes Somos?</a>
+            </li>
+            <li class="nav-item dropdown dropleft">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Buscar Modelo
+              </a>
+              <div class="dropdown-menu bg-2 p-4 text-white" aria-labelledby="navbarDropdownMenuLink">
+                <form action="catalogo.html" class="text-lg-center">
+                  <div class="form-group">
+                    <label for="search">¿Qué estás buscando?</label>
+                    <input type="text" class="form-control">
                   </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+                  <button type="submit" class="btn btn-light">Buscar</button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!--//////////////////////////////////////////////////////////////////////////////////////-->
@@ -71,7 +75,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="assets/img/slide-2.jpg" class="d-block w-100" alt="slide-2">
+                    <img src="assets/img/BMW x6/x65.jpg" class="d-block w-100" alt="slide-2">
                     <div class="carousel-caption">
                       <h4>Seguridad</h4>
                       <p>Garantía de fábrica y distribuidor.</p>
@@ -96,25 +100,29 @@
               </div>
         </section>
         
-        <div class="container">
+        <div class="container mb-5">
             <section id="destacados" class="mt-5">
                 <h1 class="text-center">Modelos Destacados</h1>
                 <div class="row">
                     <div class="col-12 col-md-6 col-lg-4 my-2">
-                    <div class="card">
-                            <img src="assets/img/slide-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <h5>BWM Serie 4 Coupé</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
+                      <div class="card">
+                        <img src="assets/img/slide-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5>BMW Serie 4 Coupé</h5>
+                          <p class="card-text text-left"> El BMW Serie 4 se apoya sobre la misma plataforma que lo hacía la berlina en 2014.
+                             Nos deja con una arquitectura conocida y de fácil adaptación a diferentes carrocerías, tal y como lo hace el Serie 4.</p>
+                          <a href="BMW serie 4.html" class="card-link">Ver más</a>
                         </div>
+                      </div>
                     </div>
                     <div class="col-12 col-md-6 col-lg-4 my-2">
                         <div class="card">
-                            <img src="assets/img/slide-2.jpg" class="card-img-top" alt="...">
+                            <img src="assets/img/BMW x6/x61.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                              <h5>BMW Serie 8 840d xDrive</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <h5>BMW X6 xDrive35i</h5>
+                              <p class="card-text text-left">El BMW X6 es un SUV coupé, del segmento E, fabricado por la marca alemana BMW desde 2008.
+                                 Actualmente se comercializa la tercera generación, el BMW X6 2020, presentada en 2019. </p>
+                              <a href="auto.html" class="card-link">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +131,8 @@
                             <img src="assets/img/slide-3.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                               <h5>BMW Serie 4 Gran Coupé 2021</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              <p class="card-text">El nuevo BMW Serie 4 Gran Coupé cuenta con un diseño propio, una dinámica de conducción mucho más deportiva y una gama de motores electrificada. </p>
+                              <a href="BMW grandcoupe.html" class="card-link">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -134,29 +143,27 @@
                 <h2 class="text-center">Información</h2>
                 <div class="card mb-3">
                     <div class="row no-gutters">
-                      <div class="col-md-4">
-                        <img src="assets/img/slide-1.jpg" class="card-img" alt="...">
+                      <div class="col-md-6">
+                        <img src="assets/img/factory.jpg" class="card-img" alt="...">
                       </div>
-                      <div class="col-md-8">
+                      <div class="col-md-6">
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
+                          <h5 class="card-title text-center">Consecionaria y Distribuidara oficial en Argentina</h5>
+                          <p class="card-text">Nos especializamos en la comercialización de la marca alemana BMW. Proveemos el contacto directo con fábrica y servicio personalizado post-venta. Con más de 15 años de experiencia en ventas a todo el país, contamos con 20 talleres oficiales en todo el territorio nacional, para brindar el mejor servicio.</p>
+                          </div>
                       </div>
                     </div>
                 </div>
                 <div class="card mb-3">
                     <div class="row no-gutters">
-                        <div class="col-md-8">
+                        <div class="col-md-6">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center">Nuestros Clientes nos Recomiendan</h5>
+                            <p class="card-text">Nuestra filosofía es que una marca tan lujosa y prestigiosa como BMW requiere un asesoramiento y servicio que esté a su altura. Tanto nuestros asesores como nuesto equipo técnico en todo el país es capacitado en Munich, Alemania. Acompañamos al cliente a cada paso del proceso de compra, desde que se contacta con nuestros vendedores, pasando por la adquisición del vehículo hasta el servicio post-venta y mantenimiento. Estamos pendiente de las necesidades del cliente en todo momento</p>
                           </div>
                         </div>
-                      <div class="col-md-4">
-                        <img src="assets/img/slide-2.jpg" class="card-img" alt="...">
+                      <div class="col-md-6">
+                        <img src="assets/img/clients.png" class="card-img" alt="...">
                       </div>
                     </div>
                 </div>
@@ -168,7 +175,7 @@
 
     <!--//////////////////////////////////////////////////////////////////////////////////////-->
 
-    <footer class="mt-5">
+    <footer class="">
         <section id="contacto" class="py-4">
             <div class="container">
               <h3 class="text-center">Contáctanos</h3>
@@ -220,7 +227,7 @@
                   </div>
                   <div class="form-group col-md-2">
                     <label for="inputZip">Código Postal</label>
-                    <input type="text" class="form-control" id="inputZip">
+                    <input type="number" class="form-control" id="inputZip">
                   </div>
                 </div>
                 <div class="form-group">
@@ -239,12 +246,12 @@
         </section>
 
         <section id="nav" class="bg-1 p-2">
-            <nav class="nav d-flex container align-items-center justify-content-center">
-                <a class="nav-link active" href="#">Inicio</a>
-                <a class="nav-link" href="#">Modelos</a>
-                <a class="nav-link" href="#">Ingresar</a>
-                <a class="nav-link" href="#">¿Quiénes sómos?</a>
-              </nav>
+          <nav class="nav d-flex container align-items-center justify-content-center">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="catalogo.html">Modelos</a>
+            <a class="nav-link" href="ingresar.html">Ingresar</a>
+            <a class="nav-link" href="#info">¿Quiénes sómos?</a>
+          </nav>
         </section>
 
         <section id="firma" class="p-2">

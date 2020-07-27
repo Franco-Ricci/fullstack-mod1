@@ -9,77 +9,54 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     
-    <style>
-    .btn-compra{
-        background-color:  hsl(205, 71%, 50%);
-      
-    }
-
-    .btn-compra:hover{
-
-    border-color:   hsl(205, 71%, 40%); 
-    background-color:   hsl(205, 92%, 60%);
-    box-shadow: 5px 3px 7px rgb(184, 184, 184);
-
-    }
-
-    .btn-test{
-        background-color:  rgb(219, 225, 230);
-  
-    }
-
-    .btn-test:hover{
-
-    border-color:  hsl(210, 2%, 65%);
-    background-color:  rgb(235, 235, 235);
-    box-shadow: 5px 3px 7px rgb(184, 184, 184);
-    }
-    </style>
+ 
 
 </head>
 
 <body>
   <header class="sticky-top shadow">
     <nav class="navbar navbar-expand-lg navbar-dark bg-1">
-        <a class="navbar-brand" href="">
-          <div class="row m-0 align-items-center">
-            <img src="assets/img/logo.png" alt="">
-            <h2 class="m-0 ml-2">BMW</h2>
-          </div>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="catalogo.html">Modelos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ingresar.html">Ingresar</a>
-            </li>
-            <li class="nav-item dropdown dropleft">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Buscar Modelo
-              </a>
-              <div class="dropdown-menu bg-2 p-4 text-white" aria-labelledby="navbarDropdownMenuLink">
-                <form action="" class="text-lg-center">
-                  <div class="form-group">
-                    <label for="search">¿Qué estás buscando?</label>
-                    <input type="text" class="form-control">
-                  </div>
-                  <button type="submit" class="btn btn-light">Buscar</button>
-                </form>
-              </div>
-                  </div>
-                </li>
-              </ul>
+      <a class="navbar-brand" href="index.html">
+        <div class="row m-0 align-items-center">
+          <img src="assets/img/logo.png" alt="">
+          <h2 class="m-0 ml-2">BMW</h2>
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalogo.html">Modelos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ingresar.html">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#info">¿Quiénes Somos?</a>
+          </li>
+          <li class="nav-item dropdown dropleft">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Buscar Modelo
+            </a>
+            <div class="dropdown-menu bg-2 p-4 text-white" aria-labelledby="navbarDropdownMenuLink">
+              <form action="catalogo.html" class="text-lg-center">
+                <div class="form-group">
+                  <label for="search">¿Qué estás buscando?</label>
+                  <input type="text" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-light">Buscar</button>
+              </form>
             </div>
-          </nav>
-    </header>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
     <!--Carousel de Auto-->
 
@@ -120,8 +97,9 @@
             <span class="sr-only">Next</span>
           </a>
           </div>
+          </section>
           </div>
-
+        
       <div class="card border-light" style="width: 18rem; height: 18rem;">
         <div class="card-body">
           <h5 class="card-title">Desde: US$134.900
@@ -360,7 +338,7 @@
       </div>
     </div>
     </div>
-  </section>
+  
      
  
   <!--FICHA TECNICA-->
@@ -521,82 +499,15 @@
     <!--//////////////////////////////////////////////////////////////////////////////////////-->
 
     <footer class="mt-5">
-      <section id="contacto" class="py-4">
-          <div class="container">
-            <h3 class="text-center">Contáctanos</h3>
-            <form>
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="inputEmail4">E-mail</label>
-                  <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputPassword4">Nombre</label>
-                  <input type="text" class="form-control" id="inputPassword4">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputPassword4">Apellido</label>
-                  <input type="text" class="form-control" id="inputPassword4">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputAddress">Teléfono</label>
-                  <input type="number" class="form-control" id="inputAddress">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputAddress2">Asunto</label>
-                  <input type="text" class="form-control" id="inputAddress2">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputCity">Ciudad</label>
-                  <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="inputState">Provincia</label>
-                  <select id="inputState" class="form-control">
-                    <option selected>Seleccionar...</option>
-                    <option>Buenos Aires</option>
-                    <option>Catamarca</option>
-                    <option>Chubut</option>
-                    <option>Córdoba</option>
-                    <option>Jujuy</option>
-                    <option>Neuquén</option>
-                    <option>Salta</option>
-                    <option>Santa Cruz</option>
-                    <option>Tucumán</option>
-                    <option>Tierra del Fuego</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-2">
-                  <label for="inputZip">Código Postal</label>
-                  <input type="text" class="form-control" id="inputZip">
-                </div>
-              </div>
-              <div class="form-group">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck">
-                  <label class="form-check-label" for="gridCheck">
-                    Deseo suscribirme a las novedades por correo.
-                  </label>
-                </div>
-              </div>
-              <div class="row m-0 justify-content-center">
-                <button type="submit" class="btn btn-primary bg-1">Enviar</button>
-              </div>
-            </form>
-          </div>
-      </section>
+    
 
       <section id="nav" class="bg-1 p-2">
-          <nav class="nav d-flex container align-items-center justify-content-center">
-              <a class="nav-link active" href="index.html">Inicio</a>
-              <a class="nav-link" href="catalogo.html">Modelos</a>
-              <a class="nav-link" href="ingresar.html">Ingresar</a>
-              <a class="nav-link" href="#">¿Quiénes sómos?</a>
-            </nav>
+        <nav class="nav d-flex container align-items-center justify-content-center">
+          <a class="nav-link" href="index.html">Inicio</a>
+          <a class="nav-link" href="catalogo.html">Modelos</a>
+          <a class="nav-link" href="ingresar.html">Ingresar</a>
+          <a class="nav-link" href="index.html#info">¿Quiénes sómos?</a>
+        </nav>
       </section>
 
       <section id="firma" class="p-2">

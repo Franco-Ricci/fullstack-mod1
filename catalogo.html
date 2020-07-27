@@ -10,109 +10,162 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header class="sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
+    <header class="sticky-top shadow">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-1">
+        <a class="navbar-brand" href="index.html">
+          <div class="row m-0 align-items-center">
+            <img src="assets/img/logo.png" alt="">
+            <h2 class="m-0 ml-2">BMW</h2>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="catalogo.html">Modelos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ingresar.html">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#info">¿Quiénes Somos?</a>
+            </li>
+            <li class="nav-item dropdown dropleft">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Buscar Modelo
+              </a>
+              <div class="dropdown-menu bg-2 p-4 text-white" aria-labelledby="navbarDropdownMenuLink">
+                <form action="catalogo.html" class="text-lg-center">
+                  <div class="form-group">
+                    <label for="search">¿Qué estás buscando?</label>
+                    <input type="text" class="form-control">
                   </div>
-                </li>
-              </ul>
-            </div>
-          </nav>
+                  <button type="submit" class="btn btn-light">Buscar</button>
+                </form>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!--//////////////////////////////////////////////////////////////////////////////////////-->
 
-    <main>
-        
+    <main id="destacados" class="p-5">
+      <div class="container">
+        <h1 class="border-bottom text-center mb-4">
+          Catálogo de Modelos
+        </h1>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/slide-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW Serie 4 Coupé</h5>
+                <p class="card-text text-left">El BMW Serie 4 2019 aspira a ser el coupé con más estilo y dinamismo del panorama del
+                   motor. Es elegancia en estado puro gracias a su combinación de estilo y prestaciones.</p>
+                <a href="BMW serie 4.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/BMW x6/x66.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW X6 xDrive35i</h5>
+                <p class="card-text text-left">El nuevo BMW X6 representa una sensación de seguridad en sí mismo. Esta sensación
+                   se percibe en la carrocería extremadamente dinámica del vehículo, junto con el nuevo lenguaje de diseño.</p>
+                <a href="auto.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+
+
+       
+          
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/slide-3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW Serie 4 Gran Coupé 2021</h5>
+                <p class="card-text text-left">Un coupé deportivo combinado con un elegante concepto de cuatro puertas.
+                   El resultado es revelador: más estilo, más espacio, más dinamismo.</p>
+                <a href="BMW grandcoupe.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/serie2coupe/img-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW Serie 2 Coupé</h5>
+                <p class="card-text text-left">El BMW Serie 2 Coupé con su diseño revolucionario y deportivo, es la
+                   máxima expresión de individualidad en su categoría, consiguie transmitir movimiento incuso parado.</p>
+                <a href="modelos/serie4coupe.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/serie5sedan/img-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW Serie 5 Sedán</h5>
+                <p class="card-text text-left">El BMW Serie 5 es ejecutivo moderno por excelencia. Gracias a su dinamismo y
+                   elegancia, responde a las expectativas relativas a un vehículo de su categoría hoy en día.</p>
+                <a href="modelos/serie4coupe.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/serie8coupe/img-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW Serie 8 Coupé</h5>
+                <p class="card-text text-left">Único hasta en el último detalle. Las extraordinarias pinturas destacan el
+                    aspecto del nuevo BMW Serie 8 Coupé, los exclusivos materiales con elegantes
+                    costuras de contraste.</p>
+                <a href="modelos/serie4coupe.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-1">
+            <div class="card">
+              <img src="assets/img/slide-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>BMW Serie 8 840d xDrive</h5>
+                <p class="card-text text-left">El nuevo BMW Serie 8 contiene exclusivos materiales con elegantes 
+                  costuras de contraste y los atractivos elementos decorativos realzan el interior deportivo.</p>
+                <a href="modelos/serie4coupe.html" class="card-link">Ver más</a>
+              </div>
+            </div>
+          </div>
+      
+
+        </div>
+      </div>
     </main>
 
     <!--//////////////////////////////////////////////////////////////////////////////////////-->
 
     <footer>
-        <section id="contacto" class="container">
-            <h3 class="text-center">Contáctanos</h3>
-            <form>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress">Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                  <label for="inputAddress2">Address 2</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                  </div>
-                  <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                      <option selected>Choose...</option>
-                      <option>...</option>
-                    </select>
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      Check me out
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
-              </form>
-        </section>
+     <section id="nav" class="bg-1 p-2">
+      <nav class="nav d-flex container align-items-center justify-content-center">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="catalogo.html">Modelos</a>
+        <a class="nav-link" href="ingresar.html">Ingresar</a>
+        <a class="nav-link" href="index.html#info">¿Quiénes sómos?</a>
+      </nav>
+    </section>
 
-        <section id="nav" class="bg-dark p-2 mt-5">
-            <nav class="nav flex-column container align-items-center">
-                <a class="nav-link active" href="#">Active</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link" href="#">Link</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </nav>
-        </section>
-
-        <section id="firma" class="bg-dark p-2">
-            <h6 class="text-center m-0 text-light">Desarrollado por GeekSteam</h6>
-        </section>
+      <section id="firma" class="p-2">
+        <h6 class="text-center m-0 text-light">Desarrollado por GeekSteam</h6>
+      </section>
     </footer>
 
     <!-- Bootstrap 4 -->
